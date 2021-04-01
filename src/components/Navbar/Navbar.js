@@ -5,12 +5,10 @@ import './Navbar.css'
 function Navbar(){
     return(
         <nav className="NavbarItems">
-            <h1 className="navbar-logo">
+            <a className="navbar-logo" href="/">
                 <i className="fab fa-react"></i>Blog
-            </h1>
-            <div className="menu-icon">
+            </a>
 
-            </div>
             <ul className="nav-menu">{MenuItems.map((item, index) => {
                 return(
                     <li key={index}><a className={item.cName} href={item.url}>
