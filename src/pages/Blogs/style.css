@@ -1,0 +1,45 @@
+.main-blogs {
+  width: 100%;
+}
+
+.main-blogs > header {
+  margin: 20px;
+  max-width: 1300px;
+}
+
+.main-blogs > header h1 {
+  color: #333;
+}
+
+.main-blogs > header p {
+  padding-left: 10px;
+}
+
+.main-blogs article {
+  margin: 20px;
+  margin-bottom: 30px;
+  max-width: 1300px;
+}
+
+.main-blogs article header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-blogs article header i {
+  padding: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.main-blogs article h1 {
+  border-left: 5px solid #6d76f7;
+  padding-left: 8px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+
+.main-blogs article p {
+  margin-bottom: 10px;
+}

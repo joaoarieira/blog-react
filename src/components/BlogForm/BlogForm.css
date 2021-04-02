@@ -1,11 +1,11 @@
 .main-blog-form {
   width: 100%;
-  margin: 20px auto;
 }
 
 .main-blog-form-content {
   display: flex;
   max-width: calc(1300px - 40px);
+  margin: 20px auto;
   padding: 20px;
   flex-wrap: wrap;
 }

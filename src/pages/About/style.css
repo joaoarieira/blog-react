@@ -1,0 +1,21 @@
+.main-about {
+  width: 100%;
+}
+
+.main-about article {
+  margin: 20px;
+  margin-bottom: 30px;
+  max-width: 1300px;
+}
+
+.main-about article h1 {
+  border-left: 5px solid #6d76f7;
+  padding-left: 8px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+
+.main-about article p {
+  margin-bottom: 10px;
+}
