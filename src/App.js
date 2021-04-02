@@ -1,17 +1,16 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-
 import './App.css';
 import Routes from './routes';
-import PageHeader from './components/PageHeader/PageHeader';
-import PageFooter from './components/PageFooter/PageFooter';
+import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <BrowserRouter>
-      <PageHeader />
+      <Header />
       <Routes />
-      <PageFooter />
+      <Footer />
     </BrowserRouter>
   );
 }

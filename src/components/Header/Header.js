@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 
-function PageHeader() {
+function Header() {
     return(
         <header className="main-header">
             <div className="main-header-content">
@@ -11,4 +11,4 @@ function PageHeader() {
     );
 }
 
-export default PageHeader;
+export default Header;
