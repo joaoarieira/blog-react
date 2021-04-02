@@ -1,10 +1,9 @@
 import React from 'react';
+import BlogForm from '../../components/BlogForm/BlogForm'
 
 function NewBlog() {
     return(
-        <h1>
-            NewBlog
-        </h1>
+        <BlogForm />
     );
 }
 

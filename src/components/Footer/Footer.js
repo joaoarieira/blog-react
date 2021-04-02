@@ -4,9 +4,9 @@ import './Footer.css'
 function Footer() {
     return(
         <>
-            <section className="main-footer">
+            {/* <section className="main-footer">
 
-            </section>
+            </section> */}
             <footer className="main-footer-rights">
                 <p>Todos os Direitos Reservados à Ninguém ®</p>
             </footer>
