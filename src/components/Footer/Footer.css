@@ -1,0 +1,8 @@
+.main-footer-rights {
+  background: rgb(150, 130, 254);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* centraliza verticalmente */
+  font-size: 0.9em;
+}

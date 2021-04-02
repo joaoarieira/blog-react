@@ -2,11 +2,9 @@ import React from 'react';
 
 function NewBlog() {
     return(
-        <>
-            <h1>
-                NewBlog
-            </h1>
-        </>
+        <h1>
+            NewBlog
+        </h1>
     );
 }
 
