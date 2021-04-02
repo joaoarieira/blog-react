@@ -8,7 +8,7 @@ function Footer() {
 
             </section> */}
             <footer className="main-footer-rights">
-                <p>Todos os Direitos Reservados à Ninguém ®</p>
+                <p>All rights reserved to Ninguém ®</p>
             </footer>
         </>
     );

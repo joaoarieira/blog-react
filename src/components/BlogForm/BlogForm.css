@@ -12,6 +12,13 @@
 
 .main-blog-form-content header {
   width: 100%;
+  margin-bottom: 10px;
+}
+
+.main-blog-form-content header h1 {
+  border-left: 5px solid #6d76f7;
+  padding-left: 8px;
+  font-weight: 400;
 }
 
 .main-blog-form-content form {
