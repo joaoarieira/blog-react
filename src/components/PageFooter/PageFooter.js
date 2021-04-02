@@ -1,7 +1,7 @@
 import React from 'react';
-import './Footer.css'
+import './PageFooter.css'
 
-function Footer() {
+function PageFooter() {
     return(
         <>
             {/* <section className="main-footer">
@@ -14,4 +14,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default PageFooter;

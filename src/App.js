@@ -3,15 +3,15 @@ import { BrowserRouter } from 'react-router-dom';
 
 import './App.css';
 import Routes from './routes';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import PageHeader from './components/PageHeader/PageHeader';
+import PageFooter from './components/PageFooter/PageFooter';
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
+      <PageHeader />
       <Routes />
-      <Footer />
+      <PageFooter />
     </BrowserRouter>
   );
 }
