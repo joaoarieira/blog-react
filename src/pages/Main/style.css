@@ -1,0 +1,35 @@
+.main-welcome-cta {
+  width: 100%;
+  text-align: center;
+}
+
+.main-welcome-cta button {
+  font-size: 1.2em;
+  max-width: 140px;
+  padding: 8px 15px;
+  margin-bottom: 40px;
+  background-color: rgb(110, 94, 254);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-welcome-cta-header h1 {
+  padding-left: 8px;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.main-welcome-cta-header p {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.main-welcome-cta-header {
+  max-width: 1300px;
+}
