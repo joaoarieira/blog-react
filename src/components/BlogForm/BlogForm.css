@@ -47,7 +47,7 @@
   margin-bottom: 10px;
 }
 
-.main-blog-form-content button {
+.main-blog-form-content form input[type="submit"] {
   font-size: 1.2em;
   margin: auto;
   padding: 8px 15px;
@@ -58,7 +58,7 @@
   cursor: pointer;
 }
 
-.main-blog-form-content button:hover {
+.main-blog-form-content form input[type="submit"]:hover {
   background-color: #6d76f7;
   transition: all 0.2s ease-out;
 }
