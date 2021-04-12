@@ -61,7 +61,6 @@ function BlogForm() {
                     <input type='Submit' />
                 </form>
             </div>
-            <p>test: {JSON.stringify(form)} </p>
         </section>
     );
 }

@@ -3,12 +3,14 @@
 }
 
 .main-blogs > header {
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
   max-width: 1300px;
 }
 
 .main-blogs > header h1 {
   color: #333;
+  font-size: 1.8em;
 }
 
 .main-blogs > header p {
@@ -19,11 +21,13 @@
   margin: 20px;
   margin-bottom: 30px;
   max-width: 1300px;
+  align-items: center;
 }
 
 .main-blogs article header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .main-blogs article header i {
@@ -37,9 +41,14 @@
   padding-left: 8px;
   font-weight: 400;
   margin-top: 20px;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
 }
 
-.main-blogs article p {
+.main-blogs article h2 {
+  flex-basis: 100%;
+  font-weight: 400;
+  font-size: 1.2em;
   margin-bottom: 10px;
+  color: #333;
 }

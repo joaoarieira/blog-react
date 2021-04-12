@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import "./style.css"
 
+import api from '../../services/api';
+
 function Blogs() {
+    const [ blogs, setBlogs ] = useState([]);
+
+    useEffect(() => {
+        api.get('/blogs').then(response => {
+            setBlogs(response.data);
+        });
+    }, []);
+
+    async function handleRemoveBlog(id) {
+        await api.delete(`/blogs/${id}`);
+        setBlogs(blogs.filter(
+            blog => blog.id !== id
+        ));
+    }
+
     return(
         <section className="main-blogs">
             <header>
@@ -13,17 +30,22 @@ function Blogs() {
                     Here you find all articles that we wrote.
                 </p>
             </header>
-            <article>
+            {blogs.map(blog => 
+            <article key={blog.id}>
                 <header>
                     <h1>
-                        Blog Title 
+                        {blog.title} 
                     </h1>
-                    <i className="far fa-trash-alt"></i>
+                    <i className="far fa-trash-alt" onClick={() => handleRemoveBlog(blog.id)}></i>
+                    <h2>
+                        {blog.snippet}
+                    </h2>
+                    
                 </header>
                 <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                    {blog.text}
                 </p>
-            </article>
+            </article>)}
         </section>
     );
 }
